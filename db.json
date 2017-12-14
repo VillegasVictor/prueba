@@ -1,31 +1,256 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"res":1,
+	"msg":"Booking found",
+	"data":{
+		"pending_payment":14.9,
+		"parking":0,
+		"breakfast":0,
+		"taxes":1,
+		"access_grant":0,
+		"total_booking":679.89949999999,
+		"total_stay":681.62499999999,
+		"credit_card":0,
+		"booking":{
+			"id":1046,
+			"loc":"KANED4JBMH ",
+			"checkin":"2017-09-21 16:00:00",
+			"checkout":"2017-09-25 11:00:00",
+			"card_code":"c1393a2b",
+			"checkin_express":0,
+			"adults":5,
+			"kids":0
+		},
+		"client":{
+			"id":5715,
+			"nombre":"Nombre ",
+			"apellido":" Apellido",
+			"email":"correo@gmail.com",
+			"telefono":"",
+			"pais":"0",
+			"calle":"",
+			"numero_casa":"",
+			"piso":"",
+			"codigo_postal":"",
+			"ciudad":"",
+			"created_at":"2017-08-28 12:23:18",
+			"updated_at":"2017-09-22 01:19:04",
+			"reservas":[
+				{
+					"id":1046,
+					"localizador":"KANED4JBMH ",
+					"codigo_acceso":"b2a3931c",
+					"checkin_express":0,
+					"status":1,
+					"cancelacion_automatica":1,
+					"tipologia_id":60,
+					"experiencia_id":15,
+					"tarifa_id":4,
+					"cancelacion":"3",
+					"ubicacion_id":2,
+					"cliente_id":5715,
+					"adultos":5,
+					"ninos":0,
+					"reseller_id":236,
+					"fecha_entrada":"2017-09-21 16:00:00",
+					"fecha_salida":"2017-09-25 11:00:00",
+					"user_id":17,"se_cobra_el":"neto",
+					"created_at":"2017-08-28 09:00:00",
+					"updated_at":"2017-08-28 12:23:18"
+				}
+			]
+		},
+		"experience":{
+			"id":15,
+			"ubicacion_id":2,
+			"nombre":"Basic Experience",
+			"color":"#7d7d7d",
+			"galeria_id":9,
+			"incidencia_porcentaje":75,
+			"predeterminada":1,
+			"limpieza_cada_dias":3,
+			"sabanas_cada_dias":3,
+			"created_at":"2016-04-04 08:58:09",
+			"updated_at":"2016-07-13 13:56:00",
+			"extras":[
+				{
+					"id":72,
+					"ubicacion_id":2,
+					"nombre":"Ropa de cama",
+					"nombre_es":"Ropa de cama",
+					"nombre_en":"Bed linen",
+					"nombre_fr":"",
+					"nombre_zh":"",
+					"nombre_ru":"",
+					"nombre_po":"",
+					"descripcion_es":"Si necesitas mantas o algo m\u00e1s tan s\u00f3lo \u00a1d\u00ednoslo!",
+					"descripcion_en":"If you need blankets or anything else just tell us!",
+					"descripcion_fr":"",
+					"descripcion_zh":"",
+					"descripcion_ru":"",
+					"descripcion_po":"0",
+					"coste":5,
+					"base_imponible":49.586776859504,
+					"iva_tipo":21,
+					"manera_cobro":"por_estancia",
+					"servicio_gestion":0,
+					"destacado":0,
+					"activo":1,
+					"created_at":"2016-04-04 08:09:28",
+					"updated_at":"2016-11-09 12:10:22",
+					"pivot":
+					{
+						"experiencia_id":15,
+						"extra_id":72
+					}
+				},
+				{
+					"id":73,
+					"ubicacion_id":2,
+					"nombre":"Toallas de ba\u00f1o",
+					"nombre_es":"Toallas de ba\u00f1o",
+					"nombre_en":"Bathroom towels",
+					"nombre_fr":"",
+					"nombre_zh":"",
+					"nombre_ru":"",
+					"nombre_po":"",
+					"descripcion_es":"Y si necesitas m\u00e1s tan s\u00f3lo tienes que pedirlas",
+					"descripcion_en":"And if you need more just ask",
+					"descripcion_fr":"",
+					"descripcion_zh":"",
+					"descripcion_ru":"",
+					"descripcion_po":"0",
+					"coste":30,
+					"base_imponible":49.586776859504,
+					"iva_tipo":21,
+					"manera_cobro":"por_estancia",
+					"servicio_gestion":0,
+					"destacado":0,
+					"activo":1,
+					"created_at":"2016-04-04 08:10:23",
+					"updated_at":"2016-11-09 12:11:03",
+					"pivot":
+					{
+						"experiencia_id":15,
+						"extra_id":73
+					}
+				},
+				{
+					"id":79,
+					"ubicacion_id":2,
+					"nombre":"Limpieza cada 3 d\u00edas",
+					"nombre_es":"Limpieza cada 3 d\u00edas",
+					"nombre_en":"Cleaning every 3 days",
+					"nombre_fr":"",
+					"nombre_zh":"",
+					"nombre_ru":"",
+					"nombre_po":"",
+					"descripcion_es":"Cada 3 d\u00edas encuentra tu apartamento como nuevo",
+					"descripcion_en":"Every day you will find your apartment as new",
+					"descripcion_fr":"",
+					"descripcion_zh":"",
+					"descripcion_ru":"",
+					"descripcion_po":"0",
+					"coste":19,
+					"base_imponible":40,
+					"iva_tipo":21,
+					"manera_cobro":"por_estancia",
+					"servicio_gestion":0,
+					"destacado":0,
+					"activo":1,
+					"created_at":"2016-04-04 08:13:30",
+					"updated_at":"2016-11-09 12:12:01",
+					"pivot":
+					{
+						"experiencia_id":15,
+						"extra_id":79
+					}
+				},
+				{
+					"id":93,
+					"ubicacion_id":2,
+					"nombre":"Free Wi-Fi",
+					"nombre_es":"Free Wi-Fi",
+					"nombre_en":"Free Wi-Fi",
+					"nombre_fr":"",
+					"nombre_zh":"",
+					"nombre_ru":"",
+					"nombre_po":"",
+					"descripcion_es":"Y a la mayor velocidad",
+					"descripcion_en":"And at the highest speed",
+					"descripcion_fr":"",
+					"descripcion_zh":"",
+					"descripcion_ru":"",
+					"descripcion_po":"0",
+					"coste":0.25,"base_imponible":0,
+					"iva_tipo":0,
+					"manera_cobro":"por_estancia",
+					"servicio_gestion":0,
+					"destacado":0,
+					"activo":1,
+					"created_at":"2016-04-04 08:21:51",
+					"updated_at":"2016-11-09 12:24:14",
+					"pivot":
+					{
+						"experiencia_id":15,
+						"extra_id":93
+					}
+				}
+			]
+		},
+		"apartment_type":
+		{
+			"id":60,
+			"ubicacion_id":2,
+			"nombre_manual":"",
+			"status":0,
+			"max":5,
+			"min":1,
+			"incidencia_porcentaje":115,
+			"descripcion_es":"\u00a1Te esperamos! ",
+			"descripcion_en":"We are waiting you!\r\n",
+			"descripcion_fr":"",
+			"descripcion_po":"",
+			"created_at":"2016-04-04 08:31:29",
+			"updated_at":"2017-06-19 15:57:56",
+			"nombre":"3 Dormitorios, 2 Ba\u00f1os ",
+			"componentes":
+			{
+			 	"dormitorios":3,
+				"lavabos":2
+			}
+		},
+		"apartment":
+		{
+			"id":47,
+			"nombre":"1 - 4",
+			"tipologia_id":60,
+			"status":0,
+			"ubicacion_id":2,"planta":1,
+			"puerta":4,
+			"acceso_id":30,
+			"altura":0,
+			"area":70,
+			"orientacion":"Este",
+			"galeria_id":9,
+			"pass_emergencia":"6928",
+			"created_at":"2016-03-01 18:49:13",
+			"updated_at":"2017-10-13 14:24:12",
+			"tipologia":
+			{
+				"id":60,
+				"ubicacion_id":2,
+				"nombre_manual":"",
+				"status":0,
+				"max":5,
+				"min":1,
+				"incidencia_porcentaje":115,
+				"descripcion_es":"\u00a1Te esperamos! ",
+				"descripcion_en":"We are waiting you!\r\n",
+				"descripcion_fr":"",
+				"descripcion_po":"",
+				"created_at":"2016-04-04 08:31:29",
+				"updated_at":"2017-06-19 15:57:56"
+			}
+		}
+	}
 }
