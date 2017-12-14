@@ -1,17 +1,7 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "res":1,
-  "msg":"Booking found",
+  "res":{"res":1},
+  "msg":{"msg":"Booking found"},
+  "profile": { "name": "typicode" },
 	"data":{
 		"pending_payment":14.9,
 		"parking":0,
