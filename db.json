@@ -10,10 +10,8 @@
       "title": "Post 3"
     }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" },
+  "res":1,
+  "msg":"Booking found",
 	"data":{
 		"pending_payment":14.9,
 		"parking":0,
