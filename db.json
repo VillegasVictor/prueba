@@ -1,7 +1,6 @@
 {
   "res":{"res":1},
   "msg":{"msg":"Booking found"},
-  "profile": { "name": "typicode" },
 	"data":{
 		"pending_payment":14.9,
 		"parking":0,
@@ -14,8 +13,8 @@
 		"booking":{
 			"id":1046,
 			"loc":"KANED4JBMH ",
-			"checkin":"2017-09-21 16:00:00",
-			"checkout":"2017-09-25 11:00:00",
+			"checkin":"2017-11-21 16:00:00",
+			"checkout":"2017-11-25 11:00:00",
 			"card_code":"c1393a2b",
 			"checkin_express":0,
 			"adults":5,
@@ -247,5 +246,73 @@
 				"descripcion_en":"We are waiting you!\r\n"
 			}
 		}
+	},
+	"datacheckin":{
+            "id":6458,
+            "localizador":"PE1616339",
+            "codigo_acceso":"79c5d7e5",
+            "checkin_express":0,
+            "status":1,
+            "cancelacion_automatica":1,
+            "tipologia_id":59,
+            "experiencia_id":13,
+            "tarifa_id":1,
+            "cancelacion":"1",
+            "ubicacion_id":1,
+            "cliente_id":28,
+            "adultos":1,
+            "ninos":0,
+            "reseller_id":260,
+            "fecha_entrada":"2017-09-04 16:00:00",
+            "fecha_salida":"2017-09-05 11:00:00",
+            "user_id":1,
+            "se_cobra_el":"bruto",
+            "created_at":"2017-09-04 09:00:00",
+            "updated_at":"2017-09-04 19:50:59",
+            "isCheckinAvailable":{
+                "isAvailable":true,
+                "class":"success",
+                "msg":"pudede hacer checkin",
+                "fecha_entrada":"2017-09-04 16:00:00"
+            },
+            "cliente":{
+                "id":28,
+                "nombre":"Francisco",
+                "apellido":"BAVARO",
+                "email":"fbavaro56@gmail.com",
+                "telefono":"677184455",
+                "pais":"AE",
+                "calle":"",
+                "numero_casa":"",
+                "piso":"",
+                "codigo_postal":"08907",
+                "ciudad":"Barcelona",
+                "created_at":"2016-06-11 10:15:29",
+                "updated_at":"2017-03-29 13:37:28"
+            },
+            "checkin":null
+    },
+    "datacard":{
+    	"id":6460,
+    	"localizador":"4835774A",
+    	"codigo_acceso":"7578f453",
+    	"checkin_express":0,
+	    "status":1,
+		"cancelacion_automatica":1,
+		"tipologia_id":59,
+		"experiencia_id":13,
+		"tarifa_id":1,
+		"cancelacion":"1",
+		"ubicacion_id":1,
+		"cliente_id":5221,
+		"adultos":5,
+		"ninos":0,
+		"reseller_id":274,
+		"fecha_entrada":"2017-09-05 00:01:00",
+		"fecha_salida":"2017-09-07 11:00:00",
+		"user_id":12,"se_cobra_el":"neto",
+		"created_at":"2017-06-04 09:00:00",
+		"updated_at":"2017-09-05 11:39:15"
 	}
+
 }
